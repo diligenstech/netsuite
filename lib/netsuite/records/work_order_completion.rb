@@ -14,7 +14,7 @@ module NetSuite
 
       field :custom_field_list, CustomFieldList
 
-      record_refs :custom_form, :entity, :job, :location, :manufacturing_routing,
+      record_refs :created_from, :custom_form, :entity, :job, :location, :manufacturing_routing,
         :revision, :subsidiary, :units, :work_order
 
       attr_reader   :internal_id
