@@ -322,6 +322,7 @@ module NetSuite
     autoload :VendorPaymentApply,               'netsuite/records/vendor_payment_apply'
     autoload :VendorPaymentApplyList,           'netsuite/records/vendor_payment_apply_list'
     autoload :WorkOrder,                        'netsuite/records/work_order'
+    autoload :WorkOrderCompletion,              'netsuite/records/work_order_completion'
     autoload :WorkOrderItem,                    'netsuite/records/work_order_item'
     autoload :WorkOrderItemList,                'netsuite/records/work_order_item_list'
   end
