@@ -9,7 +9,7 @@ module NetSuite
 
       actions :get, :get_deleted, :get_list, :add, :initialize, :delete, :update, :upsert, :search
 
-      fields :created_date, :currency_name, :exchange_rate, :landed_cost_per_line,
+      fields :created_date, :currency_name, :exchange_rate, :klass, :landed_cost_per_line,
              :last_modified_date, :memo, :tran_date, :tran_id
 
 
