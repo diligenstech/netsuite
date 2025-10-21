@@ -10,7 +10,7 @@ module NetSuite
       actions :get, :add, :initialize, :delete, :update, :upsert, :upsert_list,
         :search
 
-      fields :name, :memo, :is_inactive
+      fields :memo, :is_inactive
       
       field :component_list, BomRevisionComponentList
 
