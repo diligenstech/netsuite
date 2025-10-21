@@ -89,6 +89,7 @@ module NetSuite
     autoload :BinTransfer,                      'netsuite/records/bin_transfer'
     autoload :BinTransferInventory,             'netsuite/records/bin_transfer_inventory'
     autoload :BinTransferInventoryList,         'netsuite/records/bin_transfer_inventory_list'
+    autoload :Bom,                              'netsuite/records/bom'
     autoload :CashSale,                         'netsuite/records/cash_sale'
     autoload :CashSaleItem,                     'netsuite/records/cash_sale_item'
     autoload :CashSaleItemList,                 'netsuite/records/cash_sale_item_list'
