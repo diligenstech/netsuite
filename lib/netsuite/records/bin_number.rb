@@ -8,7 +8,7 @@ module NetSuite
 
       record_ref :bin_number
 
-      fields :preferred_bin, :location
+      fields :preferred_bin, :location, :on_hand, :on_hand_avail
 
       def initialize(attributes = {})
         initialize_from_attributes_hash(attributes)
