@@ -12,7 +12,7 @@ module NetSuite
 
       fields :memo, :is_inactive
       
-      field :component_list, BomRevisionComponentList
+      field :component_list, NetSuite::Records::BomRevisionComponentList
 
       record_refs :klass, :bill_of_materials
 
