@@ -1,7 +1,6 @@
 module NetSuite
   module Records
-    class BomRevisionComponentList
-      include Support::Sublist
+    class BomRevisionComponentList < Support::Sublist
       include Namespaces::TranInvt
 
       sublist :component, NetSuite::Records::BomRevisionComponent
