@@ -14,7 +14,7 @@ module NetSuite
         :firmed, :is_wip, :last_modified_date, :memo, :order_status,
         :partners_list, :quantity, :sales_team_list, :source_transaction_id,
         :source_transaction_line, :special_order, :start_date, :status,
-        :tran_date, :tran_id
+        :tran_date, :tran_id, :klass
 
       field :custom_field_list, CustomFieldList
       field :options,           CustomFieldList
@@ -22,8 +22,8 @@ module NetSuite
 
       record_refs :assembly_item, :created_from, :custom_form,
         :department, :entity, :job, :location, :manufacturing_routing,
-        :revision, :subsidiary, :units, :klass
-
+        :revision, :subsidiary, :units
+        
       attr_reader   :internal_id
       attr_accessor :external_id
 
@@ -38,7 +38,7 @@ module NetSuite
       end
 
       def self.search_class_namespace
-        'tranSales'
+        'tranInvt'
       end
     end
   end
