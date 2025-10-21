@@ -3,7 +3,7 @@ module NetSuite
     class BomRevisionComponentList < Support::Sublist
       include Namespaces::TranInvt
 
-      sublist :component, NetSuite::Records::BomRevisionComponent
+      sublist :bom_revision_component, NetSuite::Records::BomRevisionComponent
     end
   end
 end
