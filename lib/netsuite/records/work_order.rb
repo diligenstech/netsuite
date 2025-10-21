@@ -22,7 +22,7 @@ module NetSuite
 
       record_refs :assembly_item, :created_from, :custom_form,
         :department, :entity, :job, :location, :manufacturing_routing,
-        :revision, :subsidiary, :units
+        :revision, :subsidiary, :units, :klass
 
       attr_reader   :internal_id
       attr_accessor :external_id
@@ -38,7 +38,7 @@ module NetSuite
       end
 
       def self.search_class_namespace
-        'tranSales'
+        'tranInvt'
       end
     end
   end
