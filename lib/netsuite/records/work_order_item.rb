@@ -10,7 +10,7 @@ module NetSuite
         :contribution, :create_po, :create_wo, :description, :inventory_detail,
         :last_purchase_price, :line, :order_priority, :percent_complete,
         :po_rate, :quantity, :quantity_available, :quantity_back_ordered,
-        :quantity_committed, :quantity_on_hand, :serial_numbers
+        :quantity_committed, :quantity_on_hand, :serial_numbers, :klass
 
       field :custom_field_list, CustomFieldList
       field :options,           CustomFieldList

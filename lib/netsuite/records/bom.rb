@@ -14,7 +14,7 @@ module NetSuite
       
       field :restrict_to_assemblies_list, RecordRefList
 
-      record_refs :klass
+      record_refs :klass, :bill_of_materials_revision
 
       attr_reader :internal_id
       attr_accessor :external_id
