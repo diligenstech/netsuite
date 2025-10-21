@@ -22,7 +22,7 @@ module NetSuite
 
       record_refs :assembly_item, :created_from, :custom_form,
         :department, :entity, :job, :location, :manufacturing_routing,
-        :revision, :subsidiary, :units
+        :revision, :subsidiary, :units, :bill_of_materials_revision, :bill_of_materials
         
       attr_reader   :internal_id
       attr_accessor :external_id
